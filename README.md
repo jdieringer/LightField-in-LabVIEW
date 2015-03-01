@@ -3,7 +3,7 @@
 
 A library for automating Lightfield from Princeton Instruments using National Instruments LabVIEW.
 
-## Current Features
+### Current Features
 
 - Multiple instances of LightField for complex instrument configurations
 - Examples demonstrating dataflow and event driven implementations
@@ -14,9 +14,9 @@ A library for automating Lightfield from Princeton Instruments using National In
 - ICCD support (full pulse configuration)
 - Data return supports multiple arbitrary shaped ROIs
 
-# Revision History
+### Revision History
 
-## 2/28/2015
+#### 2/28/2015
 
 - Added spectrometer support
 - Added .NET callback VI's for event driven data transfer
@@ -27,7 +27,7 @@ A library for automating Lightfield from Princeton Instruments using National In
 - Cleaned up a lot of hanging .NET references
 - Started adding DataSlice objects for parsing the Data return type
 
-## 9/8/2014
+#### 9/8/2014
 - Values for settings are now tested by LightField and a popup is set if the value is out of range.
 	Popup will be changed to an error in a future release.
 - Trying to set a property that is not valid for the current configuration will no longer crash 
@@ -40,7 +40,7 @@ A library for automating Lightfield from Princeton Instruments using National In
 	initializing a new instance during each run of the VI. A more robust implementation may be 
 	developed in the future, but this was mostly done to speed up development of the library.
 
-## 8/27/2014
+#### 8/27/2014
 - Added ICCD support for the following functions: Aux Out Delay/Width, Gate Mode (Rep or Seq), 
 	Intensifier Gain, Internal Trigger Frequency, On Chip Accumulations, Rep Gate Delay/Width, 
 	Seq Start and End Delay/Width
@@ -50,5 +50,5 @@ A library for automating Lightfield from Princeton Instruments using National In
 	special conditions (large frame numbers).
 - Moved repository to github.com
 	
-## 8/11/2014
+#### 8/11/2014
 - Initial release of proof of concept VI's for testing. Only CCD support implemented
